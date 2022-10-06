@@ -51,6 +51,7 @@ class ColorPicker extends Component {
   render() {
     return (
       <div>
+	<h1>Colorful application</h1>
         <ColorBox {...this.state} />
         <LabeledSlider
           label="Red"
